@@ -9,6 +9,7 @@ public class Test1 {
     void test1FEJLER() {
         int a = 2;
         int b = 3;
-        assertEquals(7, a+b);
+        int result = 5;
+        assertEquals(result, a+b);
     }
 }
